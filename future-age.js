@@ -1,4 +1,6 @@
-age= '25';
-future='You will be 30 in 5 years';
-console.log('future');
+let age = 25;
+
+let futureAge = age + 5;
+
+console.log(futureAge);
 

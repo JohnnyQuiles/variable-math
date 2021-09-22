@@ -1,5 +1,11 @@
-x1=1
-y1=5
-x2=6
-y2=3
-console.log('the distance of x1,y1 and x2,y2 is', 5.38516);
+const x1 = 1;
+
+const y1 = 5;
+
+const x2 = 6;
+
+const y2 = 3;
+
+const distance = ((x2 - x1)) ** 2 + (y2-y1) ** 2) ** 0.5;
+
+console.log(distance); 
